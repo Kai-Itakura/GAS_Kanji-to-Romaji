@@ -1,4 +1,4 @@
-const API_KEY = <string>PropertiesService.getScriptProperties().getProperty('API_KEY');
-const BASE_URL = <string>PropertiesService.getScriptProperties().getProperty('BASE_URL');
-
-export { API_KEY, BASE_URL };
+export const GOO_LAB_API_KEY = <string>PropertiesService.getScriptProperties().getProperty('GOO_LAB_API_KEY');
+export const GOO_LAB_URL = <string>PropertiesService.getScriptProperties().getProperty('GOO_LAB_URL');
+export const YAHOO_API_KEY = <string>PropertiesService.getScriptProperties().getProperty('YAHOO_API_KEY');
+export const YAHOO_URL = <string>PropertiesService.getScriptProperties().getProperty('YAHOO_URL');
